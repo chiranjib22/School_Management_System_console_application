@@ -54,6 +54,7 @@ School_Management_System/
 3. **Run the application**
    ```bash
    dotnet build
+   dotnet ef database update --context AppDbContext --project School_Management_System
    dotnet run
    ```
 
